@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import requests
 
 
-CLIENT_ID = "d1612a0c952a4c2298f0fcde55950dfb"
-CLIENT_Secret = "eb0e922407b447c8936849faa51c8940"
+CLIENT_ID = "YOUR_ID"
+CLIENT_Secret = "YOUR_SECRET_KEY"
 URL = "http://example.com/?code=AQBjmAf4ci4fqhMryKyRm2borkAUfPiCba-4zCQ-Q7VtDPcH3T_shYbspDntS-zCFtc3863L-HSNnuY_ju-N_jiXQMD1l-GTCHpmij63Q_a_oCNpCPipCA0GX8Zs_NWng9_u6BwnCUvFEBWtt6gVeQWF_t6iT858YjK4WjiLtYXSVtVIUxmq2HB7lcZnqVY"
 
 sp = spotipy.Spotify(
